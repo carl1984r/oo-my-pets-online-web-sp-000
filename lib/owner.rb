@@ -13,7 +13,7 @@ class Owner
   end
 
   def sell_pets
-    #Var variable changes mood of all pets.
+    #Var changes mood of all pets.
     arr = []
     var =  @pets.each_value {|v| v.each {|a| a.mood = "nervous"}}
     @pets.each_value {|v| v.clear}
